@@ -1,0 +1,19 @@
+server:
+ port: 8089
+spring:
+ application:
+  name: digipos
+ datasource:
+  url: jdbc:sqlserver://localhost;encrypt=true;trustServerCertificate=true;databaseName=DIGIPOSDB
+  username: SA
+  password: P@$$w0rd
+
+ jpa:
+   hibernate:
+    ddl-auto: update
+   properties:
+    hibernate:
+    dialect: org.hibernate.dialect.SQLServerDialect
+
+
+
