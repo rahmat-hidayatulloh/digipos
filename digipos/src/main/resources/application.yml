@@ -1,5 +1,12 @@
 server:
- port: 8089
+ port: 8081
+
+springdoc:
+  api-docs:
+    path: /api-docs/digiposapi
+  swagger-ui:
+    path: /swagger-ui/digiposapi
+
 spring:
  application:
   name: digipos
